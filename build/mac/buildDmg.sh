@@ -66,6 +66,7 @@ ${PYTHON_PATH} -m pip install --upgrade --user Cython==0.29.10
 ${PYTHON_PATH} -m pip install --upgrade --user -r requirements.txt
 ${PYTHON_PATH} -m pip install --upgrade --user PyInstaller
 ${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall numpy
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall opencv-python
 ${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall requirements.txt
 
 #####################
