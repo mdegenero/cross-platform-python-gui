@@ -36,7 +36,7 @@ https://opencv.org/
 
 #General Imports
 import numpy as np
-import matplotlib.pyplot as plt
+
 #from google.colab import output
 import cv2
 import math
