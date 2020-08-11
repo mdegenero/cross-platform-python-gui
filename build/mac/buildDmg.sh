@@ -67,6 +67,10 @@ ${PYTHON_PATH} -m pip install --upgrade --user -r requirements.txt
 ${PYTHON_PATH} -m pip install --upgrade --user PyInstaller
 ${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall numpy
 ${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall opencv-python
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall scipy
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall moviepy
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall scikit-image
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall imutils
 ${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall requirements.txt
 
 #####################
