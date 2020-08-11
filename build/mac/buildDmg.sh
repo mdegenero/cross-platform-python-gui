@@ -65,6 +65,7 @@ ${PYTHON_PATH} -m pip install --upgrade --user pip setuptools
 ${PYTHON_PATH} -m pip install --upgrade --user Cython==0.29.10
 ${PYTHON_PATH} -m pip install --upgrade --user -r requirements.txt
 ${PYTHON_PATH} -m pip install --upgrade --user PyInstaller
+${PYTHON_PATH} -m pip install --upgrade --user --force-reinstall numpy
 
 #####################
 # PYINSTALLER BUILD #
